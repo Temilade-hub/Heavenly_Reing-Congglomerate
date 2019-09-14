@@ -1,0 +1,74 @@
+body{
+	background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url(img1.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.header{
+	background: rgba( 0,0,0,0.4);
+	width: 700px;
+	padding:0.1px;
+	margin: 0 auto 0;
+	box-sizing: border-box;
+	font-size: 20px;
+	text-align: center;
+	color:#F2E391;
+	border-radius: 44px;
+}
+.login-page{
+	width: 400px;
+	padding: 10% 0 0;
+	margin: auto;
+}
+.form{
+	position: relative;
+	z-index: 1; 
+	background: rgba( 0, 0, 0, 0.4); /*black color*/
+	max-width: 400px;
+	padding: 0 auto 100px;
+	text-align: center;
+}
+.form input{
+	font-family: "Roboto", san-serif;
+	outline: 20;
+	background:#F2E391; /*gold color*/
+	width:95%;
+	border:0;
+	margin: 0 0 9px;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size: 20px;
+	text-align: center;
+}
+.form button{
+	font-family: "Roboto", san-serif;
+	text-transform: uppercase;
+	outline: 15;
+	background: #CCCCCC;
+	width: 100%;
+	border: 0;
+	padding: 10px;
+	color: #000000;
+	font-size: 20px;
+	cursor: pointer;
+	margin: 15px 0 0;
+	border-bottom-right-radius: 24px;
+	border-top-right-radius: 24px;
+}	
+.form .message{
+	margin: 4px;
+	color:gold;
+	font-size: 20px	
+}
+.form p{
+	font-family: "Roboto", san-serif;
+	text-transform: uppercase;
+	
+	background: #CCCCCC;
+	width: 380px;;
+	border: 0;
+	padding: 10px;
+	color: #000000;
+	font-size: 20px;
+	margin: 15px 0 0;
+}
